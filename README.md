@@ -18,5 +18,9 @@ OSA is composed of multiples, possibly many, maven sub-projects. However to allo
 
 ## About this module
 
-This module is a common root for all simapis module. It does not contain any code.
-
+This module is the core of the OSA API. 
+	
+The new design of this API provides a better separation of th simulation and modeling aspects.
+It also abstracts the type used in the time values using generics such that time can be coded 
+using various types like integer or floats. This abstraction still needs further testing and 
+improvements.
